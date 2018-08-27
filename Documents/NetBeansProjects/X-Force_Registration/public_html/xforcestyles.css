@@ -1,0 +1,62 @@
+/*
+This is the style sheet for the registration and confirmation pages.
+*/
+/* 
+    Created on : Sep 28, 2017, 5:55:07 PM
+    Author     : Maria
+*/
+body {
+	background: black;
+        font: Arial, Helvetica, sans-serif;
+}
+form {
+	background: gray;
+	margin: 0 20%;
+        padding: .5em;
+        border: 1px solid red;
+        border-radius: .5%;
+}
+legend {
+	font-weight: bold;
+}
+fieldset {
+	margin-top: .5em;
+	padding: 1em;
+}
+h1 {
+	color: red;
+	font-size: 500%;
+	margin-top: 0;
+	margin-left: 5%;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 250%;
+}
+h3 {
+	margin-left: .5%;
+        margin-top: .5%;
+	font-size: 150%;
+}
+p {
+    color: blue;
+}
+label {
+	float: left;
+	text-align: right;
+	width: 10em;
+	margin-right: .5em;
+	color: gold;
+}
+input, select {
+	margin-top: .3em;
+}
+span {
+	color: red;
+}
+footer {
+	color: red;
+	margin-top: 3em;
+	text-align: center;
+}
